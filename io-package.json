@@ -1,0 +1,34 @@
+{
+    "common": {
+        "name":                     "vis-vis-menus",
+        "version": "0.0.1",
+        "title":                    "ioBroker Visualisation - vis-menus Widgets",
+        "desc": {
+            "en":                   "vis-menus Widgets for ioBroker.vis",
+            "de":                   "vis-menus Widgets für ioBroker.vis",
+            "ru":                   "vis-menus Widgets для ioBroker.vis"
+        },
+        "platform":                 "Javascript/Node.js",
+        "icon":                     "vis-menus.png",
+        "enabled":                  true,
+        "mode":                     "once",
+        "extIcon":                  "https://github.com/ioBroker/ioBroker.js-controller/raw/master/adapter/example/admin/example.png",
+        "keywords":                 ["vis-menus", "vis", "GUI", "graphical", "scada"],
+        "readme":                   "https://github.com/ioBroker/ioBroker.vis-vis-menus/blob/master/README.md",
+        "authors": [
+            "Nick0205 <nick@communicate-online.de>"
+        ],
+        "localLink":                "%web_protocol%://%ip%:%web_port%/vis/edit.html",
+        "license":                  "MIT",
+        "dependencies":             ["vis"],
+        "onlyWWW":                  true,
+        "singleton":                true,
+        "type":                     "vis",
+		"restartAdapters":          ["vis"]
+    },
+    "native": {
+        "dependencies":          []
+    },
+    "instanceObjects": [
+    ]
+}
