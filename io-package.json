@@ -1,6 +1,6 @@
 {
     "common": {
-        "name":                     "vis-vis-menus",
+        "name":                     "vis-menus",
         "version": "0.0.1",
         "title":                    "ioBroker Visualisation - vis-menus Widgets",
         "desc": {
@@ -14,7 +14,7 @@
         "mode":                     "once",
         "extIcon":                  "https://github.com/ioBroker/ioBroker.js-controller/raw/master/adapter/example/admin/example.png",
         "keywords":                 ["vis-menus", "vis", "GUI", "graphical", "scada"],
-        "readme":                   "https://github.com/ioBroker/ioBroker.vis-vis-menus/blob/master/README.md",
+        "readme":                   "https://github.com/ioBroker/ioBroker.vis-menus/blob/master/README.md",
         "authors": [
             "Nick0205 <nick@communicate-online.de>"
         ],
