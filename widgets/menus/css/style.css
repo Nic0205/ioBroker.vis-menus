@@ -12,27 +12,27 @@
 
 }
 
-.communicate-var_nav {
+.menus-var_nav {
     background: #e2e1f4;
     width:  100%;
     height: 100%;
     display: inline-flex;
 }
 
-.communicate-link_bg {
+.menus-link_bg {
     background:#7A56A0;
     color:white;
     z-index:2;
 }
 
-.communicate-link_title {
+.menus-link_title {
     position: relative;
     z-index:3;
 
     height:100%;
 }
 
-.communicate-link_title:hover {
+.menus-link_title:hover {
     left: 0;
     width:10px;
     font-weight: bold;
@@ -44,7 +44,7 @@
     transition: all 0.3s ease-in-out;
 }
 
-.communicate-link_bg, .communicate-img {
+.menus-link_bg, .menus-img {
     -webkit-transition:all .5s ease-in-out;
     -moz-transition:all .5s ease-in-out;
     -o-transition:all .5s ease-in-out;
@@ -52,7 +52,7 @@
     transition:all .5s ease-in-out;
     height: 100%;
 }
-.communicate-link_bg:hover, .communicate-img:hover{
+.menus-link_bg:hover, .menus-img:hover{
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -60,26 +60,26 @@
     transition: all 0.3s ease-in-out;
 }
 
-.communicate-link_bg:hover {
+.menus-link_bg:hover {
     width:100%;
     background: #E01B6A;
     background: blue;
 }
 
-.communicate-img:hover{
+.menus-img:hover{
     -webkit-transform:rotate(360deg);
     -moz-transform:rotate(360deg);
     -o-transform:rotate(360deg);
     -ms-transform:rotate(360deg);
     transform:rotate(360deg);
 }
-.communicate-p {
+.menus-p {
 
     position: absolute;
     left: 0.7em;
 }
 
-.communicate-p1 {
+.menus-p1 {
     font-size: 13px;
     margin: 0;
     padding: 0;
@@ -91,7 +91,7 @@
     letter-spacing: 1px;
 }
 
-.communicate-notification_box {
+.menus-notification_box {
     width:  calc(100% - 4px);
     height: calc(100% - 4px);
     margin: 0 auto;
@@ -103,7 +103,7 @@
 }
 
 
-.communicate-p2 {
+.menus-p2 {
     font-size: 13px;
     margin: 0;
     padding: 0;
@@ -113,7 +113,7 @@
     letter-spacing: 1px;
 }
 
-.communicate-dialog {
+.menus-dialog {
     padding-top: 5px
     width: 100px;
     height: 50px;
@@ -126,7 +126,7 @@
     box-shadow: 0 0 5px rgba(0,0,0,0.5), 0 2px 2px rgba(0,0,0,0.1);
 }
 
-.communicate-button {
+.menus-button {
     color: white;
     margin: 0 auto;
     border-radius: 3px;
