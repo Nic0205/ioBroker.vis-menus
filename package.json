@@ -1,7 +1,7 @@
 {
   "name": "iobroker.vis-menus",
   "description": "vis-menus Widgets for ioBroker.vis",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Nick0205",
     "email": "nick@communicate-online.de"
